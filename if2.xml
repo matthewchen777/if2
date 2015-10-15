@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="8" inline="false" x="103" y="66">
+  <block type="controls_whileUntil" id="8" inline="false" x="103" y="-14">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="23">
@@ -75,6 +75,25 @@
                 <field name="NUM">100</field>
               </block>
             </value>
+            <next>
+              <block type="oled_setcursor" id="209" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="211">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="210">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="200">
+                    <field name="TEXT">poop is awesome</field>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
