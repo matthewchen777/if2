@@ -1,12 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_leftmotor" id="272" inline="true" x="242" y="209">
-    <value name="MOVLEFT">
-      <block type="math_number" id="274">
-        <field name="NUM">90</field>
-      </block>
-    </value>
+  <block type="movement_forward" id="284" x="240" y="243">
     <next>
-      <block type="movement_forward" id="284">
+      <block type="movement_leftmotor" id="403" inline="true">
+        <value name="MOVLEFT">
+          <block type="math_number" id="410">
+            <field name="NUM">90</field>
+          </block>
+        </value>
         <next>
           <block type="robot_delay" id="301" inline="true">
             <value name="DELAY">
