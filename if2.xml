@@ -6,8 +6,22 @@
       </block>
     </value>
     <next>
-      <block type="oled_drawtext" id="251">
-        <field name="TEXT">123456789</field>
+      <block type="oled_setcursor" id="260" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="261">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="262">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <next>
+          <block type="oled_drawtext" id="251">
+            <field name="TEXT">123456789</field>
+          </block>
+        </next>
       </block>
     </next>
   </block>
