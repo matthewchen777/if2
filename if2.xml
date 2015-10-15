@@ -7,7 +7,7 @@
     </value>
     <next>
       <block type="oled_drawtext" id="251">
-        <field name="TEXT"></field>
+        <field name="TEXT">123456789</field>
       </block>
     </next>
   </block>
