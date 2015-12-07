@@ -83,4 +83,5 @@
       <block type="movement_stop" id="19"></block>
     </next>
   </block>
+  <block type="oled_drawnumber" id="28" inline="true" x="-79" y="-15"></block>
 </xml>
